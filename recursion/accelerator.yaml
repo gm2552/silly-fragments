@@ -1,0 +1,15 @@
+accelerator:
+  options:
+  - name: javaVersion
+    inputType: select
+    choices:
+    - value: "1.8"
+      text: Java 8
+    - value: "11"
+      text: Java 11
+    - value: "17"
+      text: Java 17
+    defaultValue: "11"
+    required: true
+  imports:
+    - name: javaVersion

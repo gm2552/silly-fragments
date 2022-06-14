@@ -1,0 +1,8 @@
+accelerator:
+  name: my-facetious-acclerator
+  options:
+    - name: flavor
+      dataType: string
+      defaultValue: Strawberry
+  imports:
+    - name: javaVersion
