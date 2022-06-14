@@ -1,6 +1,6 @@
 accelerator:
   options:
-  - name: java-recursion
+  - name: java-option
     inputType: select
     choices:
     - value: "1.8"
@@ -11,5 +11,3 @@ accelerator:
       text: Java 17
     defaultValue: "11"
     required: true
-  imports:
-    - name: java-recursion
