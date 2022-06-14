@@ -11,5 +11,4 @@ accelerator:
       text: Java 17
     defaultValue: "11"
     required: true
-  imports:
-    - name: java-recursion
+
